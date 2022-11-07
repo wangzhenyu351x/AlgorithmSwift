@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C606440329192DC7001B76D2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C606440229192DC7001B76D2 /* main.swift */; };
+		C606440B29192F24001B76D2 /* lengthOfLongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = C606440929192F24001B76D2 /* lengthOfLongestSubstring.swift */; };
+		C606440C29192F24001B76D2 /* splitTwoTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = C606440A29192F24001B76D2 /* splitTwoTeam.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		C60643FF29192DC7001B76D2 /* AlgorithmSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		C606440229192DC7001B76D2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C606440929192F24001B76D2 /* lengthOfLongestSubstring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lengthOfLongestSubstring.swift; sourceTree = "<group>"; };
+		C606440A29192F24001B76D2 /* splitTwoTeam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = splitTwoTeam.swift; path = ../../_SwfitCmd/_SwfitCmd/splitTwoTeam.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 		C606440129192DC7001B76D2 /* AlgorithmSwift */ = {
 			isa = PBXGroup;
 			children = (
+				C606440A29192F24001B76D2 /* splitTwoTeam.swift */,
+				C606440929192F24001B76D2 /* lengthOfLongestSubstring.swift */,
 				C606440229192DC7001B76D2 /* main.swift */,
 			);
 			path = AlgorithmSwift;
@@ -120,7 +126,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C606440B29192F24001B76D2 /* lengthOfLongestSubstring.swift in Sources */,
 				C606440329192DC7001B76D2 /* main.swift in Sources */,
+				C606440C29192F24001B76D2 /* splitTwoTeam.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

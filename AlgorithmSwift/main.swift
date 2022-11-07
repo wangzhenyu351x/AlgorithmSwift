@@ -6,6 +6,9 @@
 //
 
 import Foundation
+class TestClass {
+}
 
-print("Hello, World!")
+TestClass.staticTest()
+
 
